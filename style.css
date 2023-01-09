@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 40%;
+    height: 70%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.right{
+    width: 30%;
+    /* border: 1px solid green; */
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.categories{
+    margin: 17px 0px 0px 20px;
+    
+    height: 30px;
+    width: 50%;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    
+}
+.left img{
+    width: 90px;
+    height: 50px;
+}
+.left ul{
+    width: 90%;
+    display: flex;
+    list-style: none;
+    font-size: 19px;
+    column-gap: 25px;
+    
+}
+.right input{
+    border-radius: 26px;
+    width: 270px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+.right input::placeholder{
+    font-weight: bolder;
+}
+#login{
+    background: none;
+    border: none;
+}
+#sign{
+    background: #14A800;
+    border: none;
+    width:100px ;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.container{
+    
+    height: 600px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con-left{
+    
+    width: 30%;
+}
+.con-right{
+    
+    width: 30%;
+
+}
+.con-left h1{
+    color: #14A800;
+    font-size: 100px;
+    font-family: var(--font-family-rebrand);
+}
+.con-left p{
+    font-size: 25px;
+    color: rgb(109, 113, 118);
+    font-weight: bolder;
+}
+#start{
+    background-color: #14A800;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    width: 120px;
+    height: 40px;
+    font-weight: bolder;
+}
+#learn{
+    color:#14A800 ;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #14A800 ;
+    background: transparent;
+    font-weight: bolder;
+    
+}
+.con-left h3{
+    color: grey;
+}
+.logos{
+    display: flex;
+    column-gap: 15px;
+}
+#micro{
+    height: 39px;
+}
+#airbnb{
+    height: 39px;
+    
+}
+#blessel{
+    height: 39px;
+}
+.con-right img{
+    height: 80%;
+}
+.browse{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+    height: 400px;
+    width: 70%;
+    margin-left: 250px;
+}
+span{
+    color: #14A800;
+    font-weight: bolder;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item1,.item2,.item3,.item4{
+width: 240px;
+height: 100px;
+padding: 20px;
+border-radius: 10px;
+background-color: #E4EBE4;
+}
+.item1 h3,.item2 h3,.item3 h3,.item4 h3{
+    font-size: 22px;
+}
+.interprise{
+    display: flex;
+    
+    width: 72.5%;
+    height: 600px;
+    margin-left: 220px;
+    margin-top: 90px;
+    
+    
+    
+}
+.good{
+    
+    width: 65%;
+    background-color: #13544E;
+    padding-top: 50px;
+    padding-left: 40px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.good h1{
+    font-size: 61px;
+}
+.good p{
+    color: white;
+    font-size: 22px;
+    
+}
+.good button{
+    color: #13544E;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 13px;
+    margin-top: 7px;
+    border: none;
+    width: 130px;
+    font-weight: bolder;
+    
+}
+.person{
+    background-image: url("./Images/hxwn-enterprise-image@2x.jpg");
+    background-size: cover;
+    width: 35%;
+    height: 600px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+.work{
+    
+    height: 650px;
+    margin-top: 60px;
+    margin-left: 220px;
+    width: 72.5%;
+    background-image: url('./Images/find-talent-2x.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+.work h3{
+    padding: 40px;
+    color: white;
+    font-size: 25px
+    ;
+}
+.work h1{
+    padding: 80px 0px 0px 40px;
+    color: white;
+    font-size: 60px;
+}
+.work p{
+    padding: 29px 0px 0px 40px;
+    /* color: white; */
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one, .two, .three{
+    background-color: #14A800;
+    width: 380px;
+    height: 155px;
+    /* margin-left: 40px; */
+    margin-top: 40px;
+    border-radius: 10px;
+    color:white;
+
+}
+
+.one h2, .two h2, .three h2{
+    padding: 9px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.one p, .two p, .three p{
+    padding-left: 16px;
+    padding-top: 10px;    
+}
+.one:hover, .two:hover, .three:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #14A800;
+}
